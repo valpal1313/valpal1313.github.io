@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="logo" src="Images/images.jpg">
+            </a>
+            <h1 id="title">Texas Education Agency</h1>
+        </header>
+        <section>
+            <h1>Test Security Quiz</h1>
+            <p>Maintaining the security and confidentiality of the Texas Assessment Program is critical for ensuring fair and equal testing opportunities for all Texas students.</p>
+            <form action="action_page.php" method="GET" target="_blank">
+                <!--Test Administrator Name-->
+                <label for="TestAdministratorName">Test Administrator Name</label><br>
+                <input type="text" id="TestAdministratorName" name="TestAdministratorName">
+                <br><br>
+
+                <!---Administrator Type-->
+                <p>Administrator Type</p>
+                <input type="radio" id="MiddleSchool" name="SchoolLevel" value="Middle School">
+                <label for="MiddleSchool">Middle School Administrator</label>
+
+                <input type="radio" id="High School" name="SchoolLevel" value="High School">
+                <label for="HighSchool">High School Administrator</label>
+                <br><br>
+
+                <!--Question 1-->
+                <p>1.Why is test security important when administering a state assessment?</p>
+                <input type="radio" id="q1a" name="question1" value="testsecurity">
+                <label for="q1a">To allow staff to review test questions before testing.</label><br>
+
+                <input type="radio" id="q1a" name="question1" value="testsecurity">
+                <label for="q1a">To allow students to discuss test questions during testing.</label><br>
+
+                <input type="radio" id="q1a" name="question1" value="testsecurity">
+                <label for="q1a">To protect the confidentiality and itergrety of the assessment. </label><br>
+
+                <input type="radio" id="q1a" name="question1" value="testsecurity">
+                <label for="q1a">To make testin sessions shorter.</label>
+
+                <!--Question 2-->
+                <fieldset>
+                <p>2.Which actions can compromise the security of a state assessment? Select every correct answer.</p>
+                <legend>Multiple Answers</legend>
+                <input type="checkbox" id="q2a" name="question2" value="testsecurity">
+                <label for="q2a">Photographing secure test content.</label><br>
+
+                <input type="checkbox" id="q2a" name="question2" value="testsecurity">
+                <label for="q2a">Discussing specific secure questions with students after testin.</label><br>
+
+                <input type="checkbox" id="q1a" name="question1" value="testsecurity">
+                <label for="q2a">Sharing secure test questions with unauthorized people. </label><br>
+
+                <input type="checkbox" id="q2a" name="question2" value="testsecurity">
+                <label for="q2a">Following the districs approved testing procedure.</label>
+            <!--Question 3-->
+                <p>3.Which situations should a test administrator report according to the required testing procedures? Select ALL that apply.</p>
+                <input type="checkbox" id="q3a" name="question3" value="testsecurity">
+                <label for="q3a">A student is found using an unauthorized device during testing</label><br>
+
+                <input type="checkbox" id="q3a" name="question3" value="testsecurity">
+                <label for="q3a">A student finishes the assessment early using the approved procedure.</label><br>
+
+                <input type="checkbox" id="q3a" name="question3" value="testsecurity">
+                <label for="q3a">A student asks for clarification of an allowed testing procedure.</label><br>
+
+                <input type="checkbox" id="q3a" name="question3" value="testsecurity">
+                <label for="q3a">A secure test booklet or testing material is missing.</label>
+            </fieldset>
+                
+                
+                <!--Question 4-->
+                <p>4.Test administrators should follow the required testing procedures and security policies established for the assessment.</p>
+                <input type="radio" id="q4a" name="question4" value="testsecurity">
+                <label for="q1a">True</label><br>
+
+                <input type="radio" id="q4a" name="question4" value="testsecurity">
+                <label for="q4a">False</label><br>
+
+                
+    </body>
+</html>

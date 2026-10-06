@@ -1,0 +1,28 @@
+body {
+    margin:0;
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+}
+
+header {
+    background-color: blueviolet;
+    color: white;
+    padding-bottom: 20px;  
+}
+
+#title {
+    display: inline;
+    font-size: 40px;
+}
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
