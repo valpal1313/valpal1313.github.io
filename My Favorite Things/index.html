@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My 10 Favorite Things</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="code.js" defer></script>
+    </head>
+
+    <body>
+        <h1>My 10 Favorite Things</h1>
+
+        <div id="sample"></div>
+
+        <script>
+            var favorites = [
+                "Music",
+                "Pizza",
+                "Dogs",
+                "Traveling",
+                "Crafting",
+                "Reading",
+                "Football",
+                "Movies",
+                "Sunrises",
+                "Family"
+            ];
+
+            document.write("<ul>");
+
+            // Loop through all the values in the favorites array
+            for(var counter = 0; counter < favorites.length; counter++)
+            {
+                document.write("<li>" + favorites[counter] + "</li>");
+            }
+
+            document.write("</ul>");
+        </script>
+    </body>
+</html>
+
