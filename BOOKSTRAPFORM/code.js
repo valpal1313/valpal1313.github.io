@@ -39,10 +39,10 @@ function PizzaOrder()
 {
     var output = "<h3>Pizza Order: ";
 
+    //radio buttons
     if(document.getElementById("small").checked == true)
     {
-        output += " Small ";
-        
+        output += " Small ";  
     }
     else if (document.getElementById("medium").checked == true)
     {
@@ -65,7 +65,7 @@ function PizzaOrder()
 
     if ( document.getElementById("mushrooms").checked == true)
     {
-        output += " Muchrooms ";
+        output += " Mushrooms ";
 
     }
     //output statement

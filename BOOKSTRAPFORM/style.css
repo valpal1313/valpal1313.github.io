@@ -3,7 +3,7 @@ span {
     font-weight: bold;
 }
 
-#chesse {
+#cheese {
     position:absolute;
     z-index: 0;
 }
@@ -21,7 +21,7 @@ span {
 }
 
 
-#mashrooms-topping {
+#mushrooms-topping {
     position: absolute;
     z-index: 3;
     display: none;
